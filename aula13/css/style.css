@@ -1,0 +1,19 @@
+.never {
+    &:hover>p {
+        color: blueviolet;
+    }
+
+}
+
+.baby {
+    &:active>p {
+        color: midnightblue;
+    }
+
+}
+
+.yummy {
+    &:hover>p{
+        
+    }
+}
