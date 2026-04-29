@@ -13,7 +13,16 @@
 }
 
 .yummy {
-    &:hover>p{
-        
-    }
+    .container {
+  position: relative;
+}
+
+.elemento-escondido {
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Transição suave */
+}
+
+.container:hover .elemento-escondido {
+  opacity: 1; /* Aparece ao passar o mouse */
+}
 }
